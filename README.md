@@ -1,16 +1,137 @@
-# React + Vite
+# 🌍 Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern travel journal built with **React** that displays beautiful travel destinations using reusable components and a data-driven approach.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img width="100%" alt="Travel Journal Preview" src="preview.png">
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🌎 Display multiple travel destinations
+- ⚛️ Built with React functional components
+- 📦 Data-driven rendering using JavaScript objects
+- 🔁 Dynamic UI with `.map()`
+- 🧩 Reusable `Entry` component
+- 📍 Google Maps links for each destination
+- 🖼️ Image hover effects
+- 📱 Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- React
+- JavaScript (ES6+)
+- JSX
+- CSS3
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── assets/
+│   ├── images
+│   ├── marker.png
+│   └── globe.jpg
+│
+├── Components/
+│   ├── Header.jsx
+│   └── Entry.jsx
+│
+├── data.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📖 Concepts Learned
+
+This project helped me practice several important React concepts:
+
+- Functional Components
+- Props
+- Reusable Components
+- Data-Driven Rendering
+- JavaScript Objects & Arrays
+- `.map()` Method
+- Spread Operator (`...props`)
+- Import & Export
+- Component Composition
+- Responsive CSS Styling
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+```
+
+Go into the project folder
+
+```bash
+cd YOUR_REPOSITORY
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🌍 Destinations Included
+
+- 🏔️ Mount Everest
+- 🛕 Pashupatinath Temple
+- 🏛️ Patan Durbar Square
+- 🏔️ Pathibhara Temple
+- 🛕 Kashi Vishwanath Temple
+- 🛕 Badrinath Temple
+
+---
+
+## 📌 Future Improvements
+
+- Search destinations
+- Filter by country
+- Dark mode
+- Favorite destinations
+- Animations with Framer Motion
+- Fetch travel data from an API
+
+---
+
+## 👨‍💻 Author
+
+**Dikesh Sapkota**
+
+GitHub: https://github.com/dikeshsapkota
+
+---
+
+⭐ If you like this project, consider giving it a star!

@@ -4,7 +4,7 @@ A modern travel journal built with **React** that displays beautiful travel dest
 
 ## 📸 Preview
 
-<img width="100%" alt="Travel Journal Preview" src="![alt text](image.png)">
+<img width="100%" alt="Travel Journal Preview" src="image.png">
 
 ---
 

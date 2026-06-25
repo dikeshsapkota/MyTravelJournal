@@ -1,6 +1,6 @@
 import fuji from "./assets/fuji.jpg";
 import opera from "./assets/opera.jpg";
-import fjord from "./assets/fjord.jpg";
+import fjord from "./assets/geirangerfjord1.jpg";
 import patan from "./assets/patan.webp";
 import everest from "./assets/mount-everest.webp";
 import pathibhara from "./assets/pathibhara.jpeg";

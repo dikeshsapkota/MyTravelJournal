@@ -3,21 +3,15 @@ import marker from "../assets/marker.png";
 function Entry(props) {
   return (
    <article className="entry">
-    <img className="entry-img" src={props.imageUrl} />
 
-    <div className="entry-info">
-        <div className="entry-location">
-            <img className="marker" src={marker} />
-            <span className="country">{props.location}</span>
+    <img
+        className="entry-img"
+        src={props.imageUrl}
+        alt={props.title}
+    />
 
-            <a
-                href={props.googleMapsLink}
-                target="_blank"
-                rel="noreferrer"
-            >
-                View on Google Maps
-            </a>
-        </div>
+    <div className="entry-content">
+        <span>{props.location}</span>
 
         <h2>{props.title}</h2>
 
@@ -25,10 +19,17 @@ function Entry(props) {
             {props.startDate} - {props.endDate}
         </p>
 
-        <p className="description">
-            {props.description}
-        </p>
+        <p>{props.description}</p>
+
+        <a
+            href={props.googleMapsLink}
+            target="_blank"
+            rel="noreferrer"
+        >
+            View on Google Maps
+        </a>
     </div>
+
 </article>
   );
 }
